@@ -45,7 +45,7 @@ func main() {
 					DateTime: time.Now(),
 				},
 				UserID: userID,
-				Amount: amount,
+				Amount: userID * amount,
 			},
 		})
 
